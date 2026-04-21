@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfolio web responsive de Mario Vicente de la Horra Falomir, programador junior y estudiante de Ingenieria Informatica."
+    />
+    <title>Mario Vicente de la Horra Falomir | Programador Junior</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header" data-header>
+      <a class="brand" href="#inicio" aria-label="Ir al inicio">
+        <span class="brand-mark">MV</span>
+        <span>Mario Vicente</span>
+      </a>
+
+      <button class="menu-button" type="button" aria-label="Abrir menu" aria-expanded="false" data-menu-button>
+        <svg aria-hidden="true" viewBox="0 0 24 24">
+          <path d="M4 7h16M4 12h16M4 17h16" />
+        </svg>
+      </button>
+
+      <nav class="site-nav" data-nav aria-label="Navegacion principal">
+        <a href="#sobre-mi">Sobre mi</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#cv">CV</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="inicio" aria-labelledby="hero-title">
+        <div class="hero-content reveal">
+          <p class="eyebrow">Ingeniero Informático</p>
+          <h1 id="hero-title">Mario Vicente de la Horra Falomir</h1>
+          <div class="hero-actions" aria-label="Acciones principales">
+            <a class="button primary" href="#proyectos">
+              <svg aria-hidden="true" viewBox="0 0 24 24">
+                <path d="M5 12h14M13 6l6 6-6 6" />
+              </svg>
+              Ver proyectos
+            </a>
+            <a class="button secondary" href="assets/cv-programador-junior.html" download="CV-Mario-Vicente.html">
+              <svg aria-hidden="true" viewBox="0 0 24 24">
+                <path d="M12 4v10m0 0 4-4m-4 4-4-4M5 20h14" />
+              </svg>
+              Descarga mi curriculum
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal" aria-label="Panel visual de trabajo">
+          <div class="workspace-panel">
+            <div class="palette-row" aria-hidden="true">
+              <span class="palette-twilight"></span>
+              <span class="palette-thistle"></span>
+              <span class="palette-london"></span>
+              <span class="palette-pigeon"></span>
+              <span class="palette-spindle"></span>
+            </div>
+            <div class="panel-topbar">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <div class="code-window" data-code-window aria-live="polite">
+              <p>//Prueba a pulsar otro boton</p>
+              <p><span>public class</span> Mario {</p>
+              <p class="indent"><span>public static void</span> main(String[] args) {</p>
+              <p class="indent-deep">Mario mario = <span>new</span> Mario();</p>
+              <p class="indent-deep">mario.mejorar(<strong>"aprender"</strong>, <strong>"mejorar"</strong>);</p>
+              <p class="indent">}</p>
+              <p class="indent"><span>void</span> mejorar(String objetivo, String actitud) {</p>
+              <p class="indent-deep">System.out.println(objetivo + <strong>" para "</strong> + actitud);</p>
+              <p class="indent">}</p>
+              <p>}</p>
+            </div>
+            <div class="stack-strip" aria-label="Tecnologias">
+              <button class="is-active" type="button" data-code-language="java" aria-pressed="true">Java</button>
+              <button type="button" data-code-language="javascript" aria-pressed="false">JavaScript</button>
+              <button type="button" data-code-language="html" aria-pressed="false">HTML</button>
+              <button type="button" data-code-language="css" aria-pressed="false">CSS</button>
+              <button type="button" data-code-language="c" aria-pressed="false">C</button>
+              <button type="button" data-code-language="php" aria-pressed="false">PHP</button>
+              <button type="button" data-code-language="python" aria-pressed="false">Python</button>
+              <button type="button" data-code-language="sql" aria-pressed="false">SQL</button>
+              <button type="button" data-code-language="bash" aria-pressed="false">Bash</button>
+              <button type="button" data-code-language="csharp" aria-pressed="false">C#</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="about-section reveal" id="sobre-mi" aria-labelledby="about-title">
+        <div class="section-inner about-modern">
+          <div class="row g-4 g-lg-5 align-items-start mx-0">
+            <div class="col-lg-5">
+              <p class="section-kicker">Sobre mi</p>
+              <h2 id="about-title">Quién soy.</h2>
+              <p class="about-summary">
+                Soy un estudiante que 
+               esta acabando el grado de Ingeniería Informática en la Universitat Jaume I y busco prácticas o una
+               oportunidad junior este verano, con la intención de realizar mi TFG el año siguiente en la misma empresa.
+               Me siento especialmente cómodo con Java, aunque, como muestro, también tengo conocimientos en
+               distintas tecnologías que me permiten tener una visión amplia del desarrollo y adaptarme a diferentes retos.
+              </p>
+              <p class="about-summary">
+                Valoro el trabajo en equipo, la organización y la constancia a la hora de desarrollar proyectos. 
+                Me gusta aprender haciendo, enfrentándome a problemas reales y buscando soluciones prácticas que
+                aporten valor. Estoy abierto a oportunidades donde pueda seguir creciendo y aportando con mi perfil.
+              </p>    
+            </div>
+
+            <div class="col-lg-7">
+              <div class="about-card-grid" aria-label="Lo que puedo aportar">
+                <article class="about-card">
+                  <span class="about-card-icon">01</span>
+                  <h3>Educación</h3>
+                  <p>Grado en Ingeniería Informática de la Universidad Rey Don Jaime I con una media de 7.2 casi acabado.</p>
+                </article>
+                <article class="about-card">
+                  <span class="about-card-icon">02</span>
+                  <h3>Movilidad</h3>
+                  <p>Disponible para desplazarme y trabajar en diferentes ubicaciones o en remoto tambien cuento con coche propio.</p>
+                </article>
+                <article class="about-card">
+                  <span class="about-card-icon">03</span>
+                  <h3>Idiomas</h3>
+                  <p>Tengo el nivel B1 en inglés B1 aunque estoy estudiando ya el nivel B2 y el nivel C1 de valenciano  .</p>
+                </article>
+                <article class="about-card">
+                  <span class="about-card-icon">04</span>
+                  <h3>Forma de trabajar</h3>
+                  <p>Soy constante, me adapto bien, valoro el trabajo en equipo y no tengo problema en desplazarme si hace falta.</p>
+                </article>
+              </div>
+
+              <div class="about-stack" aria-label="Stack principal">
+                <span>Java</span>
+                <span>JavaScript</span>
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>C</span>
+                <span>PHP</span>
+                <span>Python</span>
+                <span>SQL</span>
+                <span>Bash</span>
+                <span>C#</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="projects-section reveal" id="proyectos" aria-labelledby="projects-title">
+        <div class="section-inner">
+          <div class="section-heading">
+            <div>
+              <p class="section-kicker">Proyectos</p>
+              <h2 id="projects-title">Proyectos en desarrollo.</h2>
+            </div>
+          </div>
+
+          <div class="project-grid">
+            <article class="project-card">
+              <div class="project-media">
+                <img src="assets/helpfarma.svg" alt="Ilustracion de medicamentos y monitorizacion farmaceutica" />
+                <span class="project-status">En desarrollo</span>
+              </div>
+              <div class="project-body">
+                <p class="project-type">Salud digital</p>
+                <h3>HelpFarma</h3>
+                <p>
+                  Proyecto basado en cambiar la forma en la que se monitoriza la toma de farmacos, ayudando a organizar
+                  tratamientos y hacer el seguimiento de la medicacion de una forma mas clara.
+                </p>
+                <div class="project-tags">
+                  <span>Java</span>
+                  <span>SQL</span>
+                  <span>Thymeleaf</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <div class="project-media">
+                <img src="assets/eventos-sociales.svg" alt="Ilustracion de calendario y gestion de eventos sociales" />
+                <span class="project-status">En desarrollo</span>
+              </div>
+              <div class="project-body">
+                <p class="project-type">Organizacion social</p>
+                <h3>Gestor de eventos sociales</h3>
+                <p>
+                  Proyecto que facilitara la organizacion y gestion de eventos, centralizando informacion, asistentes y
+                  tareas para que la planificacion sea mas sencilla.
+                </p>
+                <div class="project-tags">
+                  <span>Python</span>
+                  <span>PHP</span>
+                  <span>SQL</span>
+                  <span>HTML</span>
+                  <span>CSS</span>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="cv-section reveal" id="cv" aria-labelledby="cv-title">
+        <div class="section-inner cv-layout">
+          <div>
+            <p class="section-kicker">CV</p>
+            <h2 id="cv-title">Mi curriculum vitae</h2>
+            <p>
+              Por si te interesa un formato mas comprimido de lo que se habla aqui.
+            </p>
+          </div>
+          <a class="button primary" href="assets/cv-programador-junior.html" download="CV-Mario-Vicente.html">
+            <svg aria-hidden="true" viewBox="0 0 24 24">
+              <path d="M12 4v10m0 0 4-4m-4 4-4-4M5 20h14" />
+            </svg>
+            Descarga mi curriculum
+          </a>
+        </div>
+      </section>
+
+      <section class="contact-section" id="contacto" aria-labelledby="contact-title">
+        <div class="section-inner contact-grid reveal">
+          <div>
+            <p class="section-kicker">Contacto</p>
+            <h2 id="contact-title">Si te interesa mi perfil, hablemos.</h2>
+            <p>
+              Si crees que mi perfil puede encajar en tu empresa, estaré encantado de hablar contigo. 
+              Puedes enviarme un correo electrónico o un mensaje a través del formulario, y te responderé lo antes posible. 
+              o si lo prefieres, puedes contactarme directamente por teléfono. ¡Espero tener noticias tuyas pronto!
+            </p>
+            <p class="contact-direct">
+              Movil: <a href="tel:+34638657304">638 65 73 04</a>
+            </p>
+          </div>
+
+          <form class="contact-form" data-contact-form>
+            <label>
+              Nombre
+              <input type="text" name="name" autocomplete="name" required placeholder="Tu nombre" />
+            </label>
+            <label>
+              Email
+              <input type="email" name="email" autocomplete="email" required placeholder="correo@ejemplo.com" />
+            </label>
+            <label>
+              Mensaje
+              <textarea name="message" rows="5" required placeholder="Hola Mario, me gustaria hablar contigo sobre..."></textarea>
+            </label>
+            <button class="button primary form-submit" type="submit">
+              <svg aria-hidden="true" viewBox="0 0 24 24">
+                <path d="M21 3 10 14M21 3l-7 18-4-7-7-4 18-7Z" />
+              </svg>
+              Enviar saludo
+            </button>
+            <p class="form-status" data-form-status aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; <span data-year></span> Mario Vicente de la Horra Falomir. Programador Junior.</p>
+      <div class="social-links" aria-label="Enlaces sociales">
+        <a href="https://www.linkedin.com/in/mario-vicente-de-la-horra-falomir-a4471625a/" target="_blank" rel="noreferrer" aria-label="LinkedIn">
+          <svg aria-hidden="true" viewBox="0 0 24 24">
+            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6ZM2 9h4v12H2zM4 6a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z" />
+          </svg>
+        </a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

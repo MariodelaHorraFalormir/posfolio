@@ -1,4 +1,4 @@
-const CONTACT_EMAIL = "tuemail@example.com";
+const CONTACT_EMAIL = "mariodlahorrafalomir@gmail.com";
 
 const menuButton = document.querySelector("[data-menu-button]");
 const nav = document.querySelector("[data-nav]");

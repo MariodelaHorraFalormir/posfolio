@@ -1,6 +1,6 @@
 # Portfolio junior
 
-Portfolio web estatico para Mario Vicente de la Horra Falomir. Incluye secciones de inicio, sobre mi, proyectos en desarrollo, CV descargable y contacto por email.
+Portfolio web estatico creado por Mario Vicente de la Horra Falomir. Incluye secciones de inicio, sobre mi, proyectos en desarrollo, CV descargable y contacto por email.
 
 ## Personalizar
 

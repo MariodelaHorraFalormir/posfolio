@@ -21,30 +21,18 @@ const codeSnippets = {
     <p class="indent">}</p>
     <p>}</p>
   `,
-  javascript: `
-    <p><span>const</span> currentProjects = [</p>
-    <p class="indent">{ <strong>name</strong>: <strong>"HelpFarma"</strong>, <strong>status</strong>: <strong>"in progress"</strong> },</p>
-    <p class="indent">{ <strong>name</strong>: <strong>"Gestor de eventos sociales"</strong>, <strong>status</strong>: <strong>"in progress"</strong> }</p>
+  typescript: `
+    <p><span>type</span> Project = { name: <span>string</span>; stack: <span>string</span> };</p>
+    <p></p>
+    <p><span>const</span> currentProjects: Project[] = [</p>
+    <p class="indent">{ <strong>name</strong>: <strong>"HelpFarma"</strong>, <strong>stack</strong>: <strong>"Python + Vue"</strong> },</p>
+    <p class="indent">{ <strong>name</strong>: <strong>"OVI"</strong>, <strong>stack</strong>: <strong>"Java + SQL"</strong> }</p>
     <p>];</p>
     <p></p>
     <p><span>currentProjects</span>.forEach(project =&gt; {</p>
     <p class="indent"><span>console</span>.log(project.name);</p>
     <p>});</p>
       `,
-  html: `
-    <p><span>&lt;section</span> id=<strong>"location"</strong><span>&gt;</span></p>
-    <p class="indent"><span>&lt;p&gt;</span>Nacionalidad: Española<span>&lt;/p&gt;</span></p>
-    <p class="indent"><span>&lt;p&gt;</span>Ubicacion: Castellon, España<span>&lt;/p&gt;</span></p>
-    <p><span>&lt;/section&gt;</span></p>
-  `,
-  css: `
-    <p><span>.mini-2004</span> {</p>
-    <p class="indent">background: <strong>rojo</strong>;</p>
-    <p class="indent">details: <strong>blanco</strong>;</p>
-    <p class="indent">personality: <strong>clasico</strong>;</p>
-    <p class="indent">meaning: <strong>"Mi vehiculo"</strong>;</p>
-    <p>}</p>
-  `,
   c: `
     <p><span>#include</span> &lt;stdio.h&gt;</p>
     <p><span>int</span> main() {</p>
@@ -75,10 +63,10 @@ const codeSnippets = {
     <p>completar_grado()</p>
   `,
   sql: `
-   <p><span>INSERT INTO</span> solicitudes_practicas <span>(mail, mensaje, modalidad)</span></p>
+  <p><span>INSERT INTO</span> oportunidades <span>(mail, mensaje, modalidad)</span></p>
     <p><span>VALUES</span> (</p>
     <p class="indent"><strong>"mariodlahorrafalomir.com"</strong>,</p>
-    <p class="indent"><strong>"Busco practicas para este verano y estoy disponible para trabajar en remoto, presencial o hibrido"</strong>,</p>
+    <p class="indent"><strong>"Busco una oportunidad junior y estoy disponible para trabajar en remoto, presencial o hibrido"</strong>,</p>
     <p class="indent"><strong>"Flexible"</strong></p>
     <p>);</p>
   `,

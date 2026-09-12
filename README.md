@@ -1,13 +1,13 @@
 # Portfolio junior
 
-Portfolio web estatico creado por Mario Vicente de la Horra Falomir. Incluye secciones de inicio, sobre mi, proyectos en desarrollo, CV descargable y contacto por email.
+Portfolio web estatico creado por Mario Vicente de la Horra Falomir. Incluye secciones de inicio, sobre mi, experiencia profesional, proyectos, CV descargable y contacto por email.
 
 ## Personalizar
 
 1. Ajusta enlaces sociales y textos en `index.html`.
 2. Cambia `CONTACT_EMAIL` en `script.js` por tu email real.
 3. Edita `assets/cv-programador-junior.html` con tus datos.
-4. Actualiza los datos de HelpFarma y del Gestor de eventos sociales cuando avancen o tengas repositorios publicos.
+4. Actualiza los datos de Planatec, HelpFarma y OVI cuando avancen o tengas repositorios publicos.
 
 ## Abrir
 
